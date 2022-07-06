@@ -47,7 +47,7 @@ describe 'タスク管理機能', type: :system do
     let(:task_name) { '新規作成のテストを書く' }
 
     before do
-      visit new_task_path
+      visit confirm_new_task_path
       fill_in '名称', with: task_name #名称を格納する変数
       click_button '登録'
     end
