@@ -64,3 +64,5 @@ gem 'bootstrap'
 gem 'rails_autolink'
 
 gem 'net-smtp', require: false
+
+gem 'ransack'
