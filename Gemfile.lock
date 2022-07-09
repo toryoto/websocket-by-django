@@ -102,6 +102,14 @@ GEM
     jbuilder (2.11.5)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
+    launchy (2.5.0)
+      addressable (~> 2.7)
+    letter_opener (1.8.1)
+      launchy (>= 2.2, < 3)
+    letter_opener_web (1.4.1)
+      actionmailer (>= 3.2)
+      letter_opener (~> 1.0)
+      railties (>= 3.2)
     listen (3.7.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
@@ -269,6 +277,7 @@ DEPENDENCIES
   factory_bot_rails (~> 4.11)
   html2slim
   jbuilder (~> 2.7)
+  letter_opener_web (~> 1.0)
   listen (~> 3.2)
   net-smtp
   pg (>= 0.18, < 2.0)
