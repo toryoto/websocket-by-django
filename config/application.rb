@@ -1,6 +1,7 @@
 require_relative 'boot'
-
+require 'csv'
 require 'rails/all'
+require 'active_support/all'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
